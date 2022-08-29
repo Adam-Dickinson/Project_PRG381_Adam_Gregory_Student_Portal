@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="ISO-8859-1">
+	</head>
+		<title>
+			PRG381 Project
+		</title>
+		<link rel="stylesheet" type="text/css" href="/webjars/bootstrap/css/bootstrap.min.css" />
+	<body>
+		<div class="container text-center">
+		<div>
+			<h1>
+				Student Portal Home Page
+			</h1>
+			<h2>
+				Select An Option
+			</h2><br/>
+		</div>	
+		<div>
+			<h3><a th:href="@{/}">Detailed Marks</a></h3><br/>
+			<h3><a th:href="@{/}">Submit Complaint</a></h3><br/>
+			<h3><a th:href="@{/}">View Acedemic Record</a></h3><br/>
+			<h3><a th:href="@{/}">LogOut</a></h3><br/>
+		</div>
+		</div>
+	</body>
+</html>
